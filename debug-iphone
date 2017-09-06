@@ -1,0 +1,2 @@
+#!/bin/bash
+idevicesyslog > /dev/stdout | tee /dev/stdout | grep -e amfid -e kernel -e securityd
